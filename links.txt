@@ -1,0 +1,2 @@
+CppWeekly - Writing C++ the Right Way: development pipeline overview 
+https://github.com/lefticus/cpp_weekly/issues/175
