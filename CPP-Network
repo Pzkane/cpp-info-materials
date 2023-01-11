@@ -1,0 +1,50 @@
+Primary Note: We have package managers today! I evaluated Hunter, Conan and vcpkg for availability of each of these libraries.
+
+From Twitter: https://twitter.com/lefticus/status/1564017510290075650
+
+Defacto Standard:
+
+    ASIO https://think-async.com/Asio/ - which is what the networking TS is based on. Can be used with or without boost conan, hunter, vcpkg
+
+Larger utility libraries:
+
+    Qt https://www.qt.io/ - has all the things. Just use it if you already use Qt vcpkg, conan
+    wxWidgets - https://wxwidgets.org - Crossplatform GUI library with Networking vcpkg
+    Poco - https://pocoproject.org/ more than just networking hunter, vcpkg, poco
+
+More "low level" networking specific libraries:
+
+    ACE - http://www.dre.vanderbilt.edu/~schmidt/ACE.html vcpkg (well respected, not on Github AFAICT)
+    uvw - https://github.com/skypjack/uvw - wrapper around the popular libuv vcpkg conan (1.5k ⭐)
+    Sockpp - https://github.com/fpagliughi/sockpp vcpkg (483 ⭐)
+    Trantor - https://github.com/an-tao/trantor TCP specific vcpkg conan (239 ⭐)
+
+libcurl wrappers
+
+    cpr - https://github.com/libcpr/cpr hunter vcpkg conan (4.9k ⭐)
+    curlpp - https://github.com/jpbarrette/curlpp vcpkg (1.3k ⭐)
+    curlcpp - https://github.com/JosephP91/curlcpp (542 ⭐)
+
+Message Passing Like Framework Things with Multi language Support
+
+ZeroMQ
+
+    https://zeromq.org/get-started/ (C++ and ASIO style bindings available) vcpkg conan
+
+gRPC
+
+    https://grpc.io/ hunter vcpkg conan (35.4k ⭐)
+    https://github.com/Tradias/asio-grpc conan, vcpkg (142 ⭐)
+
+Websocket/HTTP specific
+
+    https://github.com/zaphoyd/websocketpp hunter vcpkg conan (5.8k ⭐)
+    boost beast - https://www.boost.org/doc/libs/1_73_0/libs/beast/doc/html/beast/introduction.html hunter vcpkg conan
+
+REST
+
+    https://github.com/Microsoft/cpprestsdk (deprecated) vcpkg conan (7k ⭐)
+    https://github.com/pistacheio/pistache vcpkg conan (2.7k ⭐)
+    https://github.com/mrtazz/restclient-cpp vcpkg (1.4k ⭐)
+    https://github.com/Stiffstream/restinio vcpkg conan (879 ⭐)
+    https://github.com/jgaa/restc-cpp vcpkg (488 ⭐)
